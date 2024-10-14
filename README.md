@@ -1,10 +1,17 @@
-# 🎈 Blank app template
+projeto_horas_extras/
+│
+├── app.py               # Arquivo principal que inicia o app e controla a navegação
+├── pages/               # Diretório para as páginas individuais
+│   ├── login.py         # Página de login
+│   ├── dashboard.py     # Página de dashboard
+│   ├── registro.py      # Página de registro de horas
+├── requirements.txt     # Lista de dependências
+├── utils/               # Funções auxiliares como autenticação e manipulação de dados
+│   ├── __init__.py
+│   └── auth.py          # Funções de autenticação
+│   └── db_utils.py      # Funções para manipular o arquivo Parquet
+└── users.json           # Arquivo JSON para armazenamento de usuários
 
-A simple Streamlit app template for you to modify!
-
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
-
-### How to run it on your own machine
 
 1. Install the requirements
 
@@ -15,5 +22,5 @@ A simple Streamlit app template for you to modify!
 2. Run the app
 
    ```
-   $ streamlit run streamlit_app.py
+   $ streamlit run app.py
    ```

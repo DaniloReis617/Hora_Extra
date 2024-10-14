@@ -1,1 +1,5 @@
 streamlit
+pandas
+pyarrow  # ou fastparquet para o formato parquet
+bcrypt  # opcional para criptografia de senhas
+plotly  # para gráficos (opcional)
