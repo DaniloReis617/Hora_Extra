@@ -1,16 +1,14 @@
-projeto_horas_extras/
-│
-├── app.py               # Arquivo principal que inicia o app e controla a navegação
-├── pages/               # Diretório para as páginas individuais
-│   ├── login.py         # Página de login
-│   ├── dashboard.py     # Página de dashboard
-│   ├── registro.py      # Página de registro de horas
-├── requirements.txt     # Lista de dependências
-├── utils/               # Funções auxiliares como autenticação e manipulação de dados
-│   ├── __init__.py
-│   └── auth.py          # Funções de autenticação
-│   └── db_utils.py      # Funções para manipular o arquivo Parquet
-└── users.json           # Arquivo JSON para armazenamento de usuários
+.
+├── app.py                 # Arquivo principal do Streamlit
+├── auth.py                # Gerenciamento de autenticação (login e cadastro)
+├── dashboard.py           # Dashboard com indicadores
+├── extras.py              # Tela para registro de horas extras
+├── admin.py               # Tela de administração geral
+├── utils.py               # Funções auxiliares (gerenciamento do arquivo Parquet, etc)
+├── data/                  # Pasta para armazenar o arquivo Parquet
+│   └── registros.parquet   # Arquivo Parquet com os registros de horas extras
+└── requirements.txt       # Bibliotecas e dependências
+
 
 
 1. Install the requirements
